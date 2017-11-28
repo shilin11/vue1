@@ -180,7 +180,7 @@ var Login=Vue.component("login",{
 		</div></div>`,
     methods:{
         back(){
-            router.go(-1);
+            router.push("/");
         },
         submit(){
 
